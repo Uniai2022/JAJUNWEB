@@ -1,0 +1,44 @@
+
+*{  
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg{
+    background-image:url("image/intro.png") ;
+    width: cover;
+    height: 718px;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto; /*가운데*/
+    background-color: red;
+    height: 86px;
+}
+
+
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+    background-color: blue;
+}
+.nav > li {
+    margin-left: 84px; /*왼쪽으로 84px*/
+}
+
