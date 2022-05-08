@@ -10,9 +10,9 @@
 }
 
 .intro_bg{
-    background-image:url("image/intro.png") ;
+    background-color: white;
     width: cover;
-    height: 718px;
+    height: 1000px;
 }
 
 .header{
@@ -24,21 +24,34 @@
 }
 
 
-.searchArea{
-    width: 300px;
-    height: 40px;
-    background-color: green;
-    border-radius: 5px;
-}
-
 .nav {
     display: flex;
-    justify-content: flex-end;
     line-height: 86px;
     width: calc(1280px - 300px);
     background-color: blue;
 }
-.nav > li {
-    margin-left: 84px; /*왼쪽으로 84px*/
+
+.nav > li{
+    margin: 10px;
 }
 
+.울산고래 {
+    width: 200px;
+}
+
+.언양불고기 {
+    width: 300px;
+    margin-left: 100px;
+}
+
+.Image1 {
+    margin-left: 50px;
+}
+
+.재수{
+    width: 300px
+}
+
+.신입생 {
+    width: 300px;
+}
