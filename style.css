@@ -15,43 +15,7 @@
     height: 1000px;
 }
 
-.header{
-    display: flex;
-    width: 1280px;
-    margin: auto; /*가운데*/
-    background-color: red;
-    height: 86px;
-}
-
-
-.nav {
-    display: flex;
-    line-height: 86px;
-    width: calc(1280px - 300px);
-    background-color: blue;
-}
-
-.nav > li{
-    margin: 10px;
-}
-
-.울산고래 {
-    width: 200px;
-}
-
-.언양불고기 {
+.사진 {
     width: 300px;
-    margin-left: 100px;
-}
-
-.Image1 {
-    margin-left: 50px;
-}
-
-.재수{
-    width: 300px
-}
-
-.신입생 {
-    width: 300px;
+    height: 300px;
 }
